@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="theme-color" content="#080d14">
+<meta name="description" content="Fon Fix Mobile Repairing Centre in Patia, Bhubaneswar. Contact us for mobile screen, battery, charging, camera and software repair support.">
+<title>FON FIX | Mobile Repairing Centre</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<style>
+:root{--bg:#080d14;--surface:#101923;--surface2:#14212d;--gold:#d9ad69;--gold2:#f0d4a2;--ink:#f5f7fa;--muted:#9eacb9;--line:rgba(255,255,255,.105);--green:#25d366}
+*{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth;scroll-padding-top:90px}
+body{background:var(--bg);color:var(--ink);font-family:"DM Sans",sans-serif;line-height:1.65}
+a{color:inherit;text-decoration:none}
+button{font:inherit}
+.container{width:min(1180px,calc(100% - 44px));margin:auto}
+.announcement{background:#111b25;border-bottom:1px solid var(--line);font-size:12px;color:#c1cbd4}
+.announcement .container{display:flex;justify-content:space-between;gap:18px;padding:9px 0}
+.announcement span{display:flex;align-items:center;gap:8px}
+.nav{position:sticky;top:0;z-index:50;background:rgba(8,13,20,.88);backdrop-filter:blur(18px);border-bottom:1px solid var(--line)}
+.nav-inner{height:82px;display:flex;align-items:center;justify-content:space-between;gap:25px}
+.brand{display:flex;align-items:center;gap:12px;font-family:Manrope,sans-serif;font-weight:800;font-size:17px;letter-spacing:1px}
+.brand-icon{width:45px;height:45px;border-radius:14px;display:grid;place-items:center;color:#101720;background:linear-gradient(145deg,#f5dfb7,#bd8743);font-size:22px;box-shadow:0 8px 30px #d9ad6933}
+.brand small{display:block;color:var(--gold);font:700 9px "DM Sans";letter-spacing:3px;margin-top:-2px}
+.nav-links{display:flex;align-items:center;gap:29px;font-size:13px;color:#c5cdd5}
+.nav-links a{transition:.2s}.nav-links a:hover{color:var(--gold2)}
+.actions{display:flex;gap:10px;align-items:center}
+.btn{display:inline-flex;justify-content:center;align-items:center;gap:9px;padding:13px 19px;border-radius:9px;font-weight:700;font-size:13px;border:1px solid transparent;transition:transform .2s,box-shadow .2s,background .2s;cursor:pointer}
+.btn:hover{transform:translateY(-2px)}
+.btn-primary{color:#111820;background:linear-gradient(135deg,#f0d4a2,#c18b49);box-shadow:0 9px 26px #d9ad6924}
+.btn-ghost{border-color:var(--line);background:#ffffff08;color:#f4f6f8}
+.btn-wa{background:var(--green);color:#062a15}
+.menu-toggle{display:none;background:none;border:0;color:white;font-size:25px;cursor:pointer}
+.hero{position:relative;overflow:hidden;padding:104px 0 92px;background:radial-gradient(ellipse at 78% 37%,#b17b3b22,transparent 35%),linear-gradient(115deg,#080d14 0%,#101b26 65%,#17232b 100%)}
+.hero:before{content:"";position:absolute;width:540px;height:540px;border:1px solid #d9ad6920;border-radius:50%;right:-190px;top:-130px;box-shadow:0 0 0 55px #d9ad6908,0 0 0 110px #d9ad6905}
+.hero-grid{position:relative;z-index:1;display:grid;grid-template-columns:1fr .94fr;gap:68px;align-items:center}
+.kicker{display:flex;align-items:center;gap:11px;color:var(--gold2);font-size:11px;font-weight:800;letter-spacing:2.6px;text-transform:uppercase;margin-bottom:21px}
+.kicker:before{content:"";width:30px;height:1px;background:var(--gold)}
+h1,h2,h3{font-family:Manrope,sans-serif;line-height:1.14}
+h1{font-size:clamp(45px,5.5vw,72px);letter-spacing:-3px;margin-bottom:22px}
+h1 span{color:var(--gold2)}
+.hero-copy>p{max-width:550px;color:#b2bec8;font-size:16px;line-height:1.85;margin-bottom:30px}
+.hero-ctas{display:flex;flex-wrap:wrap;gap:12px}
+.hero-meta{display:flex;align-items:center;gap:13px;margin-top:36px;color:#9fadb9;font-size:12px}
+.meta-icon{width:34px;height:34px;border:1px solid #d9ad6955;color:var(--gold2);border-radius:50%;display:grid;place-items:center}
+.hero-visual{position:relative}
+.hero-visual>img{display:block;width:100%;height:490px;object-fit:cover;border-radius:20px;border:1px solid #ffffff24;box-shadow:0 28px 75px #0009}
+.visual-caption{position:absolute;left:-27px;bottom:25px;padding:17px 21px;border-radius:12px;background:#111d27eF;border:1px solid #ffffff24;box-shadow:0 15px 40px #0007}
+.visual-caption b{font:700 14px Manrope;display:block}.visual-caption span{font-size:11px;color:#aab7c2}
+.hero-stamp{position:absolute;right:-17px;top:24px;width:83px;height:83px;border-radius:50%;background:linear-gradient(145deg,#f2d7a8,#b77d39);color:#17202a;display:grid;place-items:center;text-align:center;font:800 10px Manrope;letter-spacing:1px;line-height:1.4;transform:rotate(9deg);box-shadow:0 8px 28px #0007}
+.proof{background:#0d1720;border-block:1px solid var(--line)}
+.proof-grid{display:grid;grid-template-columns:repeat(3,1fr);padding:23px 0;gap:15px}
+.proof-item{display:flex;justify-content:center;align-items:center;gap:12px;color:#d4dce2;font-size:13px}
+.proof-item i{font-style:normal;color:var(--gold2);font-size:21px}
+section{padding:91px 0}
+.section-head{text-align:center;max-width:690px;margin:0 auto 45px}
+.section-head .kicker{justify-content:center}
+h2{font-size:clamp(31px,4vw,46px);letter-spacing:-1.6px;margin-bottom:15px}
+.section-head p{color:var(--muted);font-size:14px}
+.service-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:17px}
+.service-card{position:relative;overflow:hidden;background:linear-gradient(145deg,#15232e,#101923);border:1px solid var(--line);border-radius:15px;padding:27px 25px;transition:.25s}
+.service-card:after{content:"";position:absolute;width:130px;height:130px;border:1px solid #d9ad6915;border-radius:50%;right:-68px;bottom:-75px}
+.service-card:hover{transform:translateY(-5px);border-color:#d9ad6977;box-shadow:0 15px 35px #0003}
+.service-icon{height:48px;width:48px;border-radius:13px;display:grid;place-items:center;background:#d9ad6918;color:var(--gold2);font-size:22px;margin-bottom:19px}
+.service-card h3{font-size:17px;margin-bottom:9px}
+.service-card p{font-size:13px;color:var(--muted);line-height:1.8}
+.about{background:#0e1821;border-block:1px solid var(--line)}
+.about-grid{display:grid;grid-template-columns:1fr 1fr;gap:65px;align-items:center}
+.about-image{position:relative}
+.about-image img{width:100%;height:445px;object-fit:cover;border-radius:18px;border:1px solid var(--line);display:block}
+.image-note{position:absolute;right:-18px;bottom:23px;background:#111d27;border:1px solid var(--line);padding:15px 19px;border-radius:11px}
+.image-note b{display:block;font:700 13px Manrope}.image-note span{font-size:11px;color:var(--muted)}
+.about-text .kicker{margin-bottom:17px}
+.about-text>p{color:var(--muted);font-size:14px;line-height:1.9;margin:16px 0 22px}
+.feature-list{display:grid;grid-template-columns:1fr 1fr;gap:14px;margin:25px 0 29px}
+.feature-list span{font-size:12px;color:#d8e0e6}.feature-list b{color:var(--gold2);margin-right:8px}
+.gallery-grid{display:grid;grid-template-columns:1.2fr .8fr .8fr;gap:15px}
+.gallery-grid img{width:100%;height:255px;object-fit:cover;border-radius:14px;border:1px solid var(--line);transition:transform .25s}
+.gallery-grid img:hover{transform:scale(1.025)}
+.gallery-note{text-align:center;color:var(--muted);font-size:11px;margin-top:15px}
+.contact{background:radial-gradient(ellipse at 80% 30%,#b17b3b17,transparent 38%),#101b25;border-top:1px solid var(--line)}
+.contact-grid{display:grid;grid-template-columns:1fr .82fr;gap:70px;align-items:center}
+.contact-copy>p{color:var(--muted);font-size:14px;max-width:520px;margin:16px 0 27px}
+.contact-detail{display:flex;align-items:flex-start;gap:14px;margin:20px 0}
+.contact-detail .service-icon{flex:none;margin:0}
+.contact-detail strong{display:block;font-size:13px;margin-bottom:3px}
+.contact-detail span{font-size:13px;color:var(--muted);line-height:1.7}
+.contact-panel{background:#09121a;border:1px solid #ffffff18;border-radius:17px;padding:31px;box-shadow:0 22px 55px #0004}
+.contact-panel h3{font-size:22px;margin-bottom:10px}
+.contact-panel p{font-size:13px;color:var(--muted);margin-bottom:21px}
+.contact-panel .btn{width:100%;margin-top:10px;padding:15px}
+.contact-panel .smallprint{font-size:10px;text-align:center;margin:15px 0 0;color:#7f8e9b}
+footer{border-top:1px solid var(--line);padding:25px 0;color:#84929e;font-size:11px}
+footer .container{display:flex;justify-content:space-between;gap:15px;flex-wrap:wrap}
+.float-wa{position:fixed;z-index:60;right:23px;bottom:22px;width:58px;height:58px;border-radius:50%;display:grid;place-items:center;background:var(--green);color:#063018;font-size:25px;box-shadow:0 8px 28px #0008;transition:.2s}
+.float-wa:hover{transform:scale(1.08)}
+@media(max-width:950px){.nav-links{gap:17px}.hero-grid{gap:35px}.hero-visual>img{height:410px}.about-grid{gap:35px}.contact-grid{gap:35px}}
+@media(max-width:740px){
+ .container{width:min(100% - 34px,1180px)}
+ .announcement .container{justify-content:center}.announcement span:first-child{display:none}
+ .nav-inner{height:70px}.menu-toggle{display:block}.nav-links{display:none;position:absolute;top:70px;left:0;right:0;background:#0d1720;padding:20px 25px 24px;border-bottom:1px solid var(--line);flex-direction:column;align-items:flex-start;gap:18px}.nav-links.open{display:flex}
+ .actions .btn-ghost{display:none}.actions .btn{padding:10px 12px;font-size:11px}
+ .hero{padding:69px 0 65px}.hero-grid,.about-grid,.contact-grid{grid-template-columns:1fr}.hero-grid{gap:39px}h1{letter-spacing:-2px}.hero-visual>img{height:350px}.visual-caption{left:12px;bottom:13px}.hero-stamp{right:10px;top:12px}
+ .proof-grid{grid-template-columns:1fr;gap:12px}.proof-item{justify-content:flex-start}
+ section{padding:68px 0}.service-grid{grid-template-columns:1fr 1fr}.about-image img{height:350px}.image-note{right:10px}.gallery-grid{grid-template-columns:1fr 1fr}.gallery-grid img{height:185px}.gallery-grid img:first-child{grid-column:span 2;height:235px}
+}
+@media(max-width:480px){
+ .brand{font-size:14px}.brand-icon{height:39px;width:39px}.brand small{font-size:8px}
+ .hero-ctas .btn{width:100%}.service-grid{grid-template-columns:1fr}.feature-list{grid-template-columns:1fr}.gallery-grid{gap:10px}.gallery-grid img{height:145px}.gallery-grid img:first-child{height:190px}
+ .contact-panel{padding:23px}footer .container{display:block}footer span{display:block;margin:5px 0}
+}
+</style>
+</head>
+<body>
+<div class="announcement"><div class="container"><span>⌖ Location 2, Star City, Patia, Bhubaneswar</span><span>☎ Direct assistance: 80935 91438</span></div></div>
+<header class="nav">
+ <div class="container nav-inner">
+  <a class="brand" href="#home"><span class="brand-icon">✧</span><span>FON FIX<small>MOBILE REPAIRING CENTRE</small></span></a>
+  <button class="menu-toggle" id="menuToggle" aria-label="Toggle navigation" aria-expanded="false">☰</button>
+  <nav class="nav-links" id="navLinks"><a href="#home">Home</a><a href="#services">Services</a><a href="#about">About</a><a href="#gallery">Gallery</a><a href="#contact">Contact</a></nav>
+  <div class="actions"><a class="btn btn-ghost" href="https://wa.me/918093591438" target="_blank" rel="noopener">WhatsApp</a><a class="btn btn-primary" href="tel:+918093591438">Call Now ↗</a></div>
+ </div>
+</header>
+<main>
+<section class="hero" id="home">
+ <div class="container hero-grid">
+  <div class="hero-copy">
+   <div class="kicker">Mobile care, handled with precision</div>
+   <h1>Repair. Restore.<br><span>Reconnect.</span></h1>
+   <p>Your mobile phone deserves expert attention. Get help with common device issues at Fon Fix Mobile Repairing Centre in Patia, Bhubaneswar. Reach out to discuss your repair needs.</p>
+   <div class="hero-ctas"><a class="btn btn-primary" href="tel:+918093591438">☎ &nbsp; Call 80935 91438</a><a class="btn btn-ghost" href="https://wa.me/918093591438" target="_blank" rel="noopener">◉ &nbsp; Chat on WhatsApp</a></div>
+   <div class="hero-meta"><span class="meta-icon">✦</span><span>Thoughtful service · Clear communication · Local convenience</span></div>
+  </div>
+  <div class="hero-visual">
+   <img src="https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?auto=format&fit=crop&w=1100&q=85" alt="Technician working with precision at an electronics workstation">
+   <div class="visual-caption"><b>Precision device care</b><span>Mobile repair support in Patia</span></div>
+   <div class="hero-stamp">FON FIX<br>REPAIR<br>CARE</div>
+  </div>
+ </div>
+</section>
+<div class="proof"><div class="container proof-grid">
+ <div class="proof-item"><i>✧</i><span>Careful device handling</span></div>
+ <div class="proof-item"><i>⌁</i><span>Multiple repair services</span></div>
+ <div class="proof-item"><i>◉</i><span>Easy call and WhatsApp contact</span></div>
+</div></div>
+<section id="services">
+ <div class="container">
+  <div class="section-head"><div class="kicker">Our expertise</div><h2>Repair Services for Your Device</h2><p>From everyday phone issues to technical concerns, contact our centre to discuss the right service for your device.</p></div>
+  <div class="service-grid">
+   <article class="service-card"><div class="service-icon">▣</div><h3>Display & Screen Repair</h3><p>Support for cracked screens, display faults, touch issues and related screen concerns.</p></article>
+   <article class="service-card"><div class="service-icon">◉</div><h3>Battery Replacement</h3><p>Assistance with battery performance, quick draining and battery-related problems.</p></article>
+   <article class="service-card"><div class="service-icon">ϟ</div><h3>Charging Port Repair</h3><p>Help with charging connection issues and phones that are not charging correctly.</p></article>
+   <article class="service-card"><div class="service-icon">◎</div><h3>Camera Repair</h3><p>Support for camera faults, focus concerns and other camera-related issues.</p></article>
+   <article class="service-card"><div class="service-icon">⌘</div><h3>Software & Updates</h3><p>Assistance with common software issues, updates and mobile performance concerns.</p></article>
+   <article class="service-card"><div class="service-icon">⚙</div><h3>General Mobile Repair</h3><p>Get in touch for diagnosis and support with other mobile phone repair requirements.</p></article>
+  </div>
+ </div>
+</section>
+<section class="about" id="about">
+ <div class="container about-grid">
+  <div class="about-image"><img src="https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&w=1000&q=85" alt="Close-up view of a detailed electronic circuit board"><div class="image-note"><b>Technology meets attention</b><span>Focused on your device needs</span></div></div>
+  <div class="about-text"><div class="kicker">The Fon Fix approach</div><h2>Professional Attention for Every Repair</h2><p>At Fon Fix Mobile Repairing Centre, we help customers with a range of mobile phone repair needs. Our goal is to make it easy to reach us, explain your issue and get guidance before visiting.</p>
+   <div class="feature-list"><span><b>✓</b> Customer-friendly support</span><span><b>✓</b> Multiple repair services</span><span><b>✓</b> Convenient Patia location</span><span><b>✓</b> Direct phone assistance</span></div>
+   <a class="btn btn-primary" href="#contact">Find Our Centre ↗</a>
+  </div>
+ </div>
+</section>
+<section id="gallery">
+ <div class="container">
+  <div class="section-head"><div class="kicker">The world of mobile repair</div><h2>Tools, Technology & Detail</h2><p>Professional imagery inspired by modern electronics, precision tools and device servicing.</p></div>
+  <div class="gallery-grid">
+   <img src="https://images.unsplash.com/photo-1588508065123-287b28e013da?auto=format&fit=crop&w=1000&q=85" alt="Smartphone and electronic device close-up">
+   <img src="https://images.unsplash.com/photo-1519389950473-47ba0277781c?auto=format&fit=crop&w=700&q=85" alt="Modern technology workspace">
+   <img src="https://images.unsplash.com/photo-1598327105666-5b89351aff97?auto=format&fit=crop&w=700&q=85" alt="Modern mobile phone device">
+  </div>
+  <p class="gallery-note">Gallery images are illustrative and may not depict the actual repair centre.</p>
+ </div>
+</section>
+<section class="contact" id="contact">
+ <div class="container contact-grid">
+  <div class="contact-copy"><div class="kicker">Visit or get in touch</div><h2>Need Help With Your Mobile</h2><p>Tell us what is happening with your phone. Call directly or send a WhatsApp message to connect with Fon Fix.</p>
+   <div class="contact-detail"><div class="service-icon">⌖</div><div><strong>Our Location</strong><span>Location 2, Star City,<br>Opposite side of R.T.O, Patia,<br>Bhubaneswar, Odisha 751024, India</span></div></div>
+   <div class="contact-detail"><div class="service-icon">☎</div><div><strong>Phone Number</strong><span>80935 91438</span></div></div>
+  </div>
+  <div class="contact-panel"><h3>Contact Fon Fix</h3><p>Choose your preferred way to reach our mobile repairing centre.</p>
+   <a class="btn btn-primary" href="tel:+918093591438">☎ &nbsp; Call Now — 80935 91438</a>
+   <a class="btn btn-wa" href="https://wa.me/918093591438" target="_blank" rel="noopener">◉ &nbsp; Message on WhatsApp</a>
+   <p class="smallprint">Tap Call to open your device dialler, or WhatsApp to start a chat.</p>
+  </div>
+ </div>
+</section>
+</main>
+<footer><div class="container"><span>© <span id="year"></span> Fon Fix Mobile Repairing Centre. All rights reserved.</span><span>Location 2, Star City, Patia · Bhubaneswar, Odisha</span></div></footer>
+<a class="float-wa" href="https://wa.me/918093591438" target="_blank" rel="noopener" aria-label="Chat with Fon Fix on WhatsApp">◉</a>
+<script>
+document.getElementById("year").textContent=new Date().getFullYear();
+const toggle=document.getElementById("menuToggle");
+const links=document.getElementById("navLinks");
+toggle.addEventListener("click",()=>{const opened=links.classList.toggle("open");toggle.setAttribute("aria-expanded",String(opened));toggle.textContent=opened?"×":"☰";});
+links.querySelectorAll("a").forEach(a=>a.addEventListener("click",()=>{links.classList.remove("open");toggle.setAttribute("aria-expanded","false");toggle.textContent="☰";}));
+</script>
+</body>
+</html>
